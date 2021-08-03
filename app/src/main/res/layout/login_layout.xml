@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41B1E2">
+
+    <TextView
+        android:id = "@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:layout_marginBottom="30sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:text="物流管理系统V2.0"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:src="@drawable/img1">
+
+        </ImageView>
+
+        <EditText
+            android:id="@+id/editTextlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50sp"
+            android:layout_marginBottom="30sp"
+            android:background="#ffffff"
+            android:textSize="30sp"
+            android:hint="请输入登录名"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:src="@drawable/img2">
+
+        </ImageView>
+
+        <EditText
+            android:id="@+id/editTextpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50sp"
+            android:layout_marginBottom="30sp"
+            android:background="#ffffff"
+            android:textSize="30sp"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="登    录"/>
+
+    <Button
+        android:id="@+id/buttonout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="退    出"/>
+
+<!--    在创建用户数据库和录入用户数据库时使用-->
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/buttoncreateDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textColor="#ffffff"
+        android:text="创建用户数据库"/>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/buttonaddData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textColor="#ffffff"
+        android:text="添加数据"/>
+
+</LinearLayout>

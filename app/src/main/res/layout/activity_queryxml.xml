@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41B1E2">
+
+<!--    <Button-->
+<!--        android:id="@+id/justtry"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="try"/>-->
+<!--    滚动显示-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:text="    公司运单Xml"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textviewxml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="返      回"/>
+
+</LinearLayout>

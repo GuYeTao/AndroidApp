@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41B1E2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="到站："/>
+
+            <EditText
+                android:id="@+id/inputdestination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editview"
+                android:height="30dp"
+                android:width="80dp"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="发站：沈阳"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="发货人："/>
+
+            <EditText
+                android:id="@+id/inputproducer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:height="30dp"
+                android:width="150dp"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="发货电话："/>
+
+            <EditText
+                android:id="@+id/inputpphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:height="30dp"
+                android:width="150dp"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="收货人："/>
+
+            <EditText
+                android:id="@+id/inputconsumer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:height="30dp"
+                android:width="150dp"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="收货电话："/>
+
+            <EditText
+                android:id="@+id/inputcphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:height="30dp"
+                android:width="150dp"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="货物名称："/>
+
+            <EditText
+                android:id="@+id/inputname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editview"
+                android:height="30dp"
+                android:width="150dp"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="件数："/>
+
+            <EditText
+                android:id="@+id/inputnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editview"
+                android:height="30dp"
+                android:width="150dp"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="已付运费："/>
+
+            <EditText
+                android:id="@+id/inputpaidprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:height="30dp"
+                android:width="150dp"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="到付运费："/>
+
+            <EditText
+                android:id="@+id/inputunpaidprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:height="30dp"
+                android:width="150dp"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/buttoncreateWaybillDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="创建运单数据库"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:text="返      回"/>
+
+        <Button
+            android:id="@+id/buttonWaybilladdDatabase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:text="保      存"/>
+
+    </LinearLayout>
+
+</LinearLayout>

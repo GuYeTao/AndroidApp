@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41B1E2">
+
+    <TextView
+        android:id = "@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60sp"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:text="物流管理系统V2.0"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:src="@drawable/img1">
+
+        </ImageView>
+
+        <TextView
+            android:id = "@+id/textViewlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50sp"
+            android:layout_marginBottom="30sp"
+            android:background="#ffffff"
+            android:textSize="30sp"
+            android:text=""
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:src="@drawable/img2">
+
+        </ImageView>
+
+        <TextView
+            android:id = "@+id/textViewpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50sp"
+            android:layout_marginBottom="30sp"
+            android:background="#ffffff"
+            android:textSize="30sp"
+            android:text=""
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonaddWaybill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="录入运单"/>
+
+    <Button
+        android:id="@+id/buttonquerylocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="查询本机运单"/>
+
+    <Button
+        android:id="@+id/buttonqueryxml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="查询公司运单XML"/>
+
+    <Button
+        android:id="@+id/buttonqueryjson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="查询公司运单JSon"/>
+
+
+    <Button
+        android:id="@+id/buttonchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="切换用户" />
+
+    <Button
+        android:id="@+id/buttonout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="退    出"/>
+
+</LinearLayout>
